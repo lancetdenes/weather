@@ -6,3 +6,4 @@ maxTemp=`awk -F',' '{print $2}' gnv.txt | sort -n | tail -n1`
 
 echo The Max temp is $maxTemp
 
+echo nothing
